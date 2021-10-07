@@ -13,7 +13,7 @@ function Header(props){
     return(
         <header className='flex-row px-1'>
             <h2>
-                <a data-testid="link" href="#about">
+                <a data-testid="link" href="https://cffhr99.github.io/BQ_Week_19_C-React-Portfolio/">
                      Littlema
                 </a>
             </h2>
