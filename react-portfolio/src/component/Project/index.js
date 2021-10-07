@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import Hover from '../Hover';
 
 function Project(){
     const projects = [
@@ -28,24 +27,19 @@ function Project(){
             github:'https://github.com/cffhr99/Module14-Challenge',
         }
       ];
-    const [currentProject,setCurrentProject]=useState();
-    const toggleHover = (project,i) =>{
-      setCurrentProject({...project,index:i});
-      setIsHover(true);
-    }
-    const [isHover,setIsHover] = useState(false);
     return (
          <div className='flex-row'>
-           {isHover && <Hover currentProject={currentProject}></Hover>}
              {projects.map((project,i)=>(
+                 <a href={project.github}>
                  <img 
                  src={require(`../../assets/project/${i}.png`).default}
                  alt={project.name}
                  className='img-thumbnail1 mx-1'
                  key={project.name}
-                 onMouseEnter ={()=>toggleHover(project,i)}
-                 onMouseLeave ={()=>setIsHover(false)}
-                 />      
+                 onMouseEnter={e=>e.currentTarget.src=require(`../../assets/github/${i}.jpg`).default }
+                 onMouseLeave={e=>e.currentTarget.src=require(`../../assets/project/${i}.png`).default }
+                 ></img>
+                 </a>   
              ))}
          </div>
     )
