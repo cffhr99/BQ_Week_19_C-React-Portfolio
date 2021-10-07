@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/BQ_Week_19_C-React-Portfolio/static/css/main.ddae763b.chunk.css",
+    "main.js": "/BQ_Week_19_C-React-Portfolio/static/js/main.67c4601d.chunk.js",
+    "main.js.map": "/BQ_Week_19_C-React-Portfolio/static/js/main.67c4601d.chunk.js.map",
+    "runtime-main.js": "/BQ_Week_19_C-React-Portfolio/static/js/runtime-main.5c0e755b.js",
+    "runtime-main.js.map": "/BQ_Week_19_C-React-Portfolio/static/js/runtime-main.5c0e755b.js.map",
+    "static/js/2.125203ac.chunk.js": "/BQ_Week_19_C-React-Portfolio/static/js/2.125203ac.chunk.js",
+    "static/js/2.125203ac.chunk.js.map": "/BQ_Week_19_C-React-Portfolio/static/js/2.125203ac.chunk.js.map",
+    "static/js/3.2b52e96d.chunk.js": "/BQ_Week_19_C-React-Portfolio/static/js/3.2b52e96d.chunk.js",
+    "static/js/3.2b52e96d.chunk.js.map": "/BQ_Week_19_C-React-Portfolio/static/js/3.2b52e96d.chunk.js.map",
+    "index.html": "/BQ_Week_19_C-React-Portfolio/index.html",
+    "static/css/main.ddae763b.chunk.css.map": "/BQ_Week_19_C-React-Portfolio/static/css/main.ddae763b.chunk.css.map",
+    "static/js/2.125203ac.chunk.js.LICENSE.txt": "/BQ_Week_19_C-React-Portfolio/static/js/2.125203ac.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/BQ_Week_19_C-React-Portfolio/static/media/0.3c9b6e19.jpg",
+    "static/media/0.png": "/BQ_Week_19_C-React-Portfolio/static/media/0.e1212584.png",
+    "static/media/1.jpg": "/BQ_Week_19_C-React-Portfolio/static/media/1.585f7924.jpg",
+    "static/media/1.png": "/BQ_Week_19_C-React-Portfolio/static/media/1.7c70deaf.png",
+    "static/media/2.png": "/BQ_Week_19_C-React-Portfolio/static/media/2.686710ff.png",
+    "static/media/2.jpg": "/BQ_Week_19_C-React-Portfolio/static/media/2.732094b3.jpg",
+    "static/media/3.jpg": "/BQ_Week_19_C-React-Portfolio/static/media/3.6123ffa1.jpg",
+    "static/media/3.png": "/BQ_Week_19_C-React-Portfolio/static/media/3.64a44620.png",
+    "static/media/cat.JPG": "/BQ_Week_19_C-React-Portfolio/static/media/cat.0f8f75c6.JPG",
+    "static/media/mail.png": "/BQ_Week_19_C-React-Portfolio/static/media/mail.f2e217b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c0e755b.js",
+    "static/js/2.125203ac.chunk.js",
+    "static/css/main.ddae763b.chunk.css",
+    "static/js/main.67c4601d.chunk.js"
+  ]
+}
