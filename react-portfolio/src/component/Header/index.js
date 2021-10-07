@@ -5,7 +5,9 @@ function Header(props){
         contactSelected,
         setContactSelected,
         projectSelected,
-        setProjectSelected
+        setProjectSelected,
+        resumeSelected,
+        setResumeSelected
     } = props;
 
     return(
@@ -20,6 +22,8 @@ function Header(props){
             setContactSelected={setContactSelected}
             projectSelected ={projectSelected}
             setProjectSelected={setProjectSelected}
+            resumeSelected={resumeSelected}
+            setResumeSelected={setResumeSelected}
             />
         </header>
     )

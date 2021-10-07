@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 function Project(){
     const projects = [
@@ -30,16 +30,17 @@ function Project(){
     return (
          <div className='flex-row'>
              {projects.map((project,i)=>(
+                 <li key={project.name}>
                  <a href={project.github}>
                  <img 
                  src={require(`../../assets/project/${i}.png`).default}
                  alt={project.name}
                  className='img-thumbnail1 mx-1'
-                 key={project.name}
-                 onMouseEnter={e=>e.currentTarget.src=require(`../../assets/github/${i}.jpg`).default }
-                 onMouseLeave={e=>e.currentTarget.src=require(`../../assets/project/${i}.png`).default }
+                 onMouseEnter={e=>e.currentTarget.src=require(`../../assets/github/${i}.jpg`).default}
+                 onMouseLeave={e=>e.currentTarget.src=require(`../../assets/project/${i}.png`).default}
                  ></img>
-                 </a>   
+                 </a>
+                 </li>   
              ))}
          </div>
     )

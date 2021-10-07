@@ -8,6 +8,7 @@ return(
          <img 
          src={require(`../../assets/logo/github.png`).default} 
          className='logo'
+         alt='github'
          ></img></a>
     </div>
     <div>
@@ -15,6 +16,7 @@ return(
          <img 
          src={require(`../../assets/logo/mail.png`).default} 
          className='logo'
+         alt='email'
          ></img></a>
     </div>
     </div>
