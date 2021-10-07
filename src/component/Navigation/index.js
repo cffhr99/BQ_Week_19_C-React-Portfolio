@@ -10,7 +10,7 @@ function Navigation(props){
     return(
         <ul className="flex-row">
             <li className={`mx-2`}>
-                <a href="/"
+                <a href="#About"
                 onClick={()=> setContactSelected(false) & setProjectSelected(false) & setResumeSelected(false)}>
                     About me
                 </a>
