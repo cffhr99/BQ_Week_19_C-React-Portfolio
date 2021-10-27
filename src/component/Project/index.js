@@ -25,6 +25,12 @@ function Project(){
             url:'https://public.tableau.com/app/profile/cffhr99/viz/NYC_Citi_Bike_Update/NYCCitiBike?publish=yes',
             description: 'An analysis on NYC Citi Bike.',
             github:'https://github.com/cffhr99/Module14-Challenge',
+        },
+        {
+            name: 'Project 3: PokeTrader',
+            url:'https://pocket-traders.herokuapp.com/',
+            description: 'This application is an online trading card game based on the Pokemon games that have provided entertainment to many followers and collectors throughout the years.',
+            github:'https://github.com/cffhr99/PokeTrader/tree/main',
         }
       ];
     return (
